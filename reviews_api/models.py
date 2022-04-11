@@ -10,4 +10,4 @@ class Review(models.Model):
     trip_end_date = models.DateField(default='2022-01-05')
     review = models.TextField()
     img = models.CharField(default='https://i.imgur.com/99v0yRs.jpg', max_length=100)
-    test = models.CharField(max_length=32)
+    test = models.CharField(max_length=32, default="hello")
